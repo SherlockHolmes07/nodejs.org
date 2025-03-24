@@ -2,6 +2,7 @@ import js from '@eslint/js';
 import importX from 'eslint-plugin-import-x';
 import noRelativeImportPaths from 'eslint-plugin-no-relative-import-paths';
 
+
 export default [
   js.configs.recommended,
   importX.flatConfigs.recommended,
